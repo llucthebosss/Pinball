@@ -1,51 +1,50 @@
 # Pinball Casino
 
-## Description
+## Descripció
 
-Casino-themed pinball game made with Box2D and raylib for the Physics II course (Project 01: Classic Physics).
+Joc de pinball amb temàtica de casino fet amb Box2D i raylib per a l'assignatura de Física II (Projecte 01: Classic Physics).
 
-- **Original game:** {LINK_TO_ORIGINAL_GAME}
-- **Source code (GitHub):** {LINK_TO_GITHUB_REPOSITORY}
+- **Codi font (GitHub):** https://github.com/llucthebosss/Pinball
 
-## Developers
+## Desenvolupadors
 
 - Lluc Torner Calvo
 - Andrea Vasco Peiró
 - Alan Del Tio
 
-## How to play
+## Com jugar
 
-Run `PinballCasino.exe` (keep the `Assets` folder and the DLLs next to it).
+Executa `PinballCasino.exe` (mantén la carpeta `Assets` i les DLL al costat de l'executable).
 
-Each round has 3 balls. When the last ball is lost the round ends, the score is saved as the previous score
-(and as the highest score if it beats it) and a new round can be started.
+Cada ronda té 3 boles. Quan es perd l'última bola, la ronda s'acaba: la puntuació es guarda com a puntuació anterior
+(i com a millor puntuació si la supera) i es pot començar una ronda nova.
 
-### Scoring
+### Puntuació
 
-- Bumper: +100 points
-- Target: +50 points
-- **Combo:** light up all 3 targets → +1000 points and an **extra ball**
-- High Roller lane: +500 points and the ball is launched back up
+- Bumper: +100 punts
+- Diana: +50 punts
+- **Combo:** encendre les 3 dianes → +1000 punts i una **bola extra**
+- Carril High Roller: +500 punts i la bola es torna a llançar cap amunt
 
 ## Controls
 
-| Key | Action |
+| Tecla | Acció |
 | --- | --- |
-| Enter | Start game (menu) / play again (game over) |
-| M | Back to the main menu (game over screen) |
-| Left arrow | Left flipper |
-| Right arrow | Right flipper |
-| Down arrow | Kicker (hold to pull, release to launch) |
-| F1 | Debug mode: draw all physics shapes and enable the mouse joint (drag bodies with the left mouse button) |
-| F2 / F3 | Decrease / increase target FPS (10 – 240) |
-| F4 / F5 | Decrease / increase gravity |
-| F6 / F7 | Decrease / increase bumper bounce (restitution) |
-| 1 | Spawn a ball at the mouse position |
+| Enter | Començar la partida (menú) / tornar a jugar (game over) |
+| M | Tornar al menú principal (pantalla de game over) |
+| Fletxa esquerra | Flipper esquerre |
+| Fletxa dreta | Flipper dret |
+| Fletxa avall | Kicker (mantén per estirar, deixa anar per llançar) |
+| F1 | Mode debug: dibuixa totes les formes físiques i activa el mouse joint (arrossega cossos amb el botó esquerre del ratolí) |
+| F2 / F3 | Baixar / pujar els FPS objectiu (10 – 240) |
+| F4 / F5 | Baixar / pujar la gravetat |
+| F6 / F7 | Baixar / pujar el rebot dels bumpers (restitució) |
+| 1 | Crear una bola a la posició del ratolí |
 
-## Differences with the original
+## Diferències amb l'original
 
-- {LIST_OF_DIFFERENCES}
+- {LLISTA_DE_DIFERÈNCIES}
 
-## License
+## Llicència
 
-This project is licensed under an unmodified MIT license, which is an OSI-certified license that allows static linking with closed source software. Check [LICENSE](LICENSE) for further details.
+Aquest projecte està sota una llicència MIT sense modificar, una llicència certificada per l'OSI que permet l'enllaçat estàtic amb programari de codi tancat. Consulta [LICENSE](LICENSE) per a més detalls.
