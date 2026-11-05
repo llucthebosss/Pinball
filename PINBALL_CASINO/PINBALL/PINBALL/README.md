@@ -4,8 +4,6 @@
 
 Casino-themed pinball game made with Box2D and raylib for the Physics II course (Project 01: Classic Physics).
 
-- **Original game:** {LINK_TO_ORIGINAL_GAME}
-- **Source code (GitHub):** {LINK_TO_GITHUB_REPOSITORY}
 
 ## Developers
 
